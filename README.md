@@ -1,2 +1,2 @@
-# Neurospora_mutation
- Mutation analyses in Neurospora genome
+
+Scripts and pipelines for mutation analyses in Neurspora crassa
