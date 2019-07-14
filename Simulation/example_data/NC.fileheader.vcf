@@ -1,0 +1,23 @@
+##fileformat=VCFv4.1
+##FORMAT=<ID=SDP,Number=1,Type=Integer,Description="Simulated read depth">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="Variant type">
+##contig=<ID=Supercontig_12.1,length=9798893>
+##contig=<ID=Supercontig_12.2,length=4478683>
+##contig=<ID=Supercontig_12.3,length=5274802>
+##contig=<ID=Supercontig_12.4,length=6000761>
+##contig=<ID=Supercontig_12.5,length=6436246>
+##contig=<ID=Supercontig_12.6,length=4218384>
+##contig=<ID=Supercontig_12.7,length=4255303>
+##contig=<ID=Supercontig_12.8,length=192308>
+##contig=<ID=Supercontig_12.9,length=142473>
+##contig=<ID=Supercontig_12.10,length=125404>
+##contig=<ID=Supercontig_12.11,length=31696>
+##contig=<ID=Supercontig_12.12,length=19714>
+##contig=<ID=Supercontig_12.13,length=13515>
+##contig=<ID=Supercontig_12.14,length=11565>
+##contig=<ID=Supercontig_12.15,length=9397>
+##contig=<ID=Supercontig_12.16,length=8983>
+##contig=<ID=Supercontig_12.17,length=6701>
+##contig=<ID=Supercontig_12.18,length=6309>
+##contig=<ID=Supercontig_12.19,length=4755>
+##contig=<ID=Supercontig_12.20,length=1646>
