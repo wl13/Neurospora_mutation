@@ -12,7 +12,7 @@
 
 * **Usage:**
 
-    detect_tetrad_mutations.pl -v variants.vcf -g sample_groups.txt --min-supp-depth 5 mut.vcf
+        detect_tetrad_mutations.pl -v variants.vcf -g sample_groups.txt --min-supp-depth 5 mut.vcf
 
 
 * **Options:**   
