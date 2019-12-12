@@ -71,25 +71,6 @@
             > /data/Cross_E.delly.candidate_dups.vcf
 
 
-
-#### Step 6) Rank the candidate spontaneous duplicates (as doing in mutation calling) for further evaluation
-
-        cat /data/Cross_E.delly.candidate_dups.vcf | \
-            perl -ne 'next if (/^\#\#/); if (/\#/) {
-            print "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\tMUTATION\tSV_Type\tMethods\tEND\tSize\tFrequency\tMut_Set\n";
-            next;} my @line = (split /\s+/); my $info = $line[7]; $info =~ /MA=(\w+)/; my $mut_allele = $1;
-            $info =~ /SVTYPE=(\w+)\;.*END=(\d+)\;/; my ($var_type, $sv_end) = ($1, $2); my $sv_size = $sv_end - $line[1] + 1;
-            my $fq_sum = 1; if($info =~ /Shared\=(\d+)/){$fq_sum = $1;}
-            my $type = ($mut_allele eq $line[3]) ? "REF" : "ALT"; my $out_line = join "\t", @line;
-            my $method = "Delly"; my @filters = (); 
-            if ($info !~ /NMISS=0/) {push @filters, "MISSING";} if ($info !~ /FPD=0/) {push @filters, "FPD";}
-            my $set = "TP"; if ($info =~ /Combine=Grouped\+NonGrouped/){$set = "TP+FQ";}elsif($info =~ /Combine=NonGrouped/){$set = "FQ";}
-            if (scalar @filters == 0) {$set .= "(Confidence)";} else {my $filters = join ",", @filters; $set .= "($filters)";}
-            next if ($set !~ /TP/ && $set !~ /Confidence/);
-            print "$out_line\t$var_type\t$method\t$sv_end\t$sv_size\t$fq_sum\t$set\n";' \
-            > /data/Cross_E.delly.candidate_dups.ranked.csv
-
-
 ####   
 
     
