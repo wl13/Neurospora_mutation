@@ -55,7 +55,8 @@
             ${BCF_FILES}
 
 
-#### Step 5) filtering delly calls, and detect spontaneous duplicates which only present in asci against parents with a 2:2 segregation 
+#### Step 5) filtering delly calls, and detect spontaneous duplicates which only present in asci against parents
+
 
         ## Criteria used to filter Delly results (reference to https://www.biostars.org/p/116628/):
         ## PASS: >= 3 reads support with mapping quality (QUAL >=20)
