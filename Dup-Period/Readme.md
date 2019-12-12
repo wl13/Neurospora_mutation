@@ -7,9 +7,10 @@
 * Original code contributed by Huawei Tan
 
 
-* 1) Gladyshev E, Kleckner N. Direct recognition of homology between double helices of DNA in Neurospora crassa. Nature Communications. 2014;5:3509.
+* References
 
-* 2) Gladyshev E, Kleckner N. Recombination-Independent Recognition of DNA Homology for Repeat-Induced Point Mutation (RIP) Is Modulated by the Underlying Nucleotide Sequence. PLOS Genet. 2016;12:e1006015. 
+    1) Gladyshev E, Kleckner N. Direct recognition of homology between double helices of DNA in Neurospora crassa. Nature Communications. 2014;5:3509.
+    2) Gladyshev E, Kleckner N. Recombination-Independent Recognition of DNA Homology for Repeat-Induced Point Mutation (RIP) Is Modulated by the Underlying Nucleotide Sequence. PLOS Genet. 2016;12:e1006015. 
 
 
 <br />
