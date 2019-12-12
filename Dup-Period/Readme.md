@@ -26,7 +26,7 @@
 #### Step2 (2.search_matched_units-rr.pl): searching for units with at least 3 identical base in front 
 
 
-#### Step3 (3-*.join_matched_units_in_*_chr-rr.pl): linking matched units in same or different chromosomes
+#### Step3 (3-1.join_matched_units_in_same_chr-rr.pl): linking matched units in same or different (3-2.join_matched_units_in_diff_chr-rr.pl) chromosomes
 
 
 #### Step4 (4.gater_joined_units-rr.pl): gathering joined units if they satisfy the specied criterion like >= 16 units, and write to bed output
