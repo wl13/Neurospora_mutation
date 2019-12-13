@@ -19,7 +19,7 @@
 
 #### Lynch_data_with_newNe.csv
 
-* File with all required data (same as Table S7. Cross species estimates of mutation rates and related parameters)
+* File with all required data (could also be found in "Table S7. Cross species estimates of mutation rates and related parameters")
 
 <br /> 
 
@@ -30,4 +30,7 @@
 
 <br />
 
+* References
+
+    1) Lynch M, Ackerman MS, Gout J-F, Long H, Sung W, Thomas WK, et al. Genetic drift, selection and the evolution of the mutation rate. Nat Rev Genet. 2016;17:704¨C14.
 
