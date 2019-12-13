@@ -1,9 +1,39 @@
 
 ### Scripts and pipelines for mutation analyses in Neurspora crassa
 
+
+## Folders
+
+### Correlations
+
+* R scripts for analysis of relationships between predictor variables and mutation rate across taxa (contributed by Laurence D. Hurst)
+
 <br />
 
+
+
+### Dup-Period
+
+* Perl scripts to search for interspersed homology (contributed by Huawei Tan)
+
+<br />
+
+
+
+### Simulation
+
+* Perl scripts for mutation simulation (i.e., generating synthetic mutations)
 * An example from preprocessing to mutation calling could be found in Simulation Step 4~6
+
+<br />
+
+
+### Spontaneous_Dup
+
+* Steps to detect spontaneous duplicates using Delly
+
+<br />
+
 
 ## Scripts
 
