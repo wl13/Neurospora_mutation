@@ -18,18 +18,18 @@
 
 * The mentioned perl scripts are avaliable in the folder "perl_scripts". These example scripts are given for a single strand and orientation, one could easily modify them for other strand or orientation. Note the current scripts need much improvement for generally use as well as better efficiency. A full example on a mock genome could be found in the "example" folder
 
-#### Step1 (1.chop_genome_to_group-rr.pl): chopping genome into short fragments/units with all combinations of 10~12bp
+#### Step1 (1.chop_genome_to_group-rr.pl): chopping genome into short fragments/units with all combinations of 10~12bp and joined the first 3bp of each unit to generate a characteristic sequence for 5 adjacent inter units
 
-* All 243 (=3^5) possible combinations of lengths are given in file "unit_length_combinations.txt"
-
-
-#### Step2 (2.search_matched_units-rr.pl): searching for units with at least 3 identical base in front 
+* 5 inter units with length 10~12bp will generate 243 (=3^5) possible combinations of lengths, the length combinations are given in file "unit_length_combinations.txt" 
 
 
-#### Step3 (3-1.join_matched_units_in_same_chr.pl): linking matched units in same or different (3-2.join_matched_units_in_diff_chr.pl) chromosomes
+#### Step2 (2.search_matched_units-rr.pl): searching for identical characteristic sequences in different locations of the genome, i.e., find units which could match periodically 
 
 
-#### Step4 (4.gather_joined_units.pl): gathering joined units if they satisfy the specied criterion like >= 16 units, and write to bed output
+#### Step3 (3-1.join_matched_units_in_same_chr.pl): join matched units in same or different (3-2.join_matched_units_in_diff_chr.pl) chromosomes
+
+
+#### Step4 (4.gather_joined_units.pl): gathering joined units if they satisfy the specied criterion like at least 16 mathced units, and write to bed output
 
 
 
