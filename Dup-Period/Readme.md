@@ -16,7 +16,7 @@
 <br />
 
 
-* The mentioned perl scripts are avaliable in the folder "perl_scripts". These example scripts are given for a single strand and orientation, one could easily modify them for other stran or orientation. 
+* The mentioned perl scripts are avaliable in the folder "perl_scripts". These example scripts are given for a single strand and orientation, one could easily modify them for other strand or orientation. Note the current scripts need much improvement for generally use as well as better efficiency. A full example on a mock genome could be found in the "example" folder
 
 #### Step1 (1.chop_genome_to_group-rr.pl): chopping genome into short fragments/units with all combinations of 10~12bp
 
