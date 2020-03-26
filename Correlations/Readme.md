@@ -23,6 +23,12 @@
 
 <br /> 
 
+#### Lynch_data_with_newNe_and_muCDS.csv
+
+* Add the CDS per bp mutation rates to the above file.
+
+<br /> 
+
 
 #### graphic_with_ggplot2.R
 
@@ -32,5 +38,5 @@
 
 * References
 
-    1) Lynch M, Ackerman MS, Gout J-F, Long H, Sung W, Thomas WK, et al. Genetic drift, selection and the evolution of the mutation rate. Nat Rev Genet. 2016;17:704¨C14.
+    1) Lynch M, Ackerman MS, Gout J-F, Long H, Sung W, Thomas WK, et al. Genetic drift, selection and the evolution of the mutation rate. Nat Rev Genet. 2016;17:704ï¿½C14.
 

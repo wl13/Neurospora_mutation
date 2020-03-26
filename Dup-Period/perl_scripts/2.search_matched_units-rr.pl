@@ -1,11 +1,11 @@
-$dir1 = 'f16-minusrev-u3g6';
-$dir2 = 'f08-u3g6';
-$dirout = 'f19-mrout';
+$dir1 = 'f16-minusrev-u3g6'; ## change this folder name when search in reverse/complement strands
+$dir2 = 'f08-u3g6';          ## this always indicate the forward non-complemented strand
+$dirout = 'f19-mrout';       ## this is for output files
 
 $sample=$ARGV[0];
 #warn "$sample";
 	
-open FILE, "gzip -dc $dir1\/mr\-${sample}\.fas\.gz | " or die "Can not open seq file\n";
+open FILE, "gzip -dc $dir1\/mr\-${sample}\.fas\.gz | " or die "Can not open seq file\n"; ## make sure the patterns could mattch the files in the folder 
 while (<FILE>) { s/\r//g; chomp;
 	if (/>(.+)/) {
 		($chr1,$start1,$period1) = split /\-/, $1; $chr1=~s/Supercontig\_12\.//;
